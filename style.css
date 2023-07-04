@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+overflow: hidden;
+}
+body{
+    background-color: #edf1fd;
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;*/
+} 
+header{
+    padding: 20px 70px;
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-around;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+ gap: 30px;
+ font-weight: 500;
+}
+.nav-list ul li a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+button{
+   background-color: rgb(18, 155, 155);
+   color: aliceblue;
+   outline: 0;
+   border: 1px solid white;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: 600;
+   width: fit-content;
+   padding: 4px 10px;
+  
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+form{
+    display: flex;
+    gap: 35px;
+}
+.form input{
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.hero{
+    display:flex ;
+    align-items: center;
+    padding: 16px 182px;
+    justify-content: space-between;
+}
+.right-side{
+display: flex;
+width: 40%;
+flex-direction:column ;
+align-items: center;
+justify-content: center;
+}
+.right-side img{
+    height: 400px;
+    width: 400px;
+}
+footer{
+    padding: 52px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul{
+    padding-left: 60px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+footer ul li a i:hover{
+font-size: 35px;
+color: aqua;
+}
+footer p{
+    font-weight: 600px;
+}
+.left-side h1 span{
+color: rgb(18,155,155);
+font-weight: 900;
+font-size: 2.5 rem;
+}
+.left-side p span{
+    font-weight: 700;
+    color: rgb(18, 155, 155);
+    font-size: 25px;
+    }
+    .left-side h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .left-side{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .left-side p{
+        font-weight: 500;
+    }
